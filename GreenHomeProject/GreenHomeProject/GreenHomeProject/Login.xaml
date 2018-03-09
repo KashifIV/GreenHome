@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenHomeProject.Login"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="Center"
+                      Padding="0,100,0,70">
+            <Image Source="logo_small.png"
+                   VerticalOptions="Center"/>
+            <Entry Text="Username"
+                   x:Name="user"
+                   Focused="Entry_Focused"
+                   Unfocused="Entry_Focused"
+                   TextColor="Gray"
+                   PlaceholderColor="White"
+                   VerticalOptions="Center"
+                   Margin="50,0"/>
+
+            <Entry Text="Password"
+                   x:Name="pass"
+                   TextColor ="Gray"
+                   PlaceholderColor="White"
+                   VerticalOptions="Center"
+                   Focused="Entry_Focused_1" 
+                   Unfocused="Entry_Focused_1"
+                   Margin="50,0"
+                   />
+            <Label Text="New User:" 
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"
+                   Margin="50,0"             
+                   TextColor="Gray"/>
+            <Switch HorizontalOptions="End"
+                   VerticalOptions="Center"
+                   Margin="50,0" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

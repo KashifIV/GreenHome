@@ -13,8 +13,8 @@ namespace GreenHomeProject
 		{
 			InitializeComponent();
 
-			MainPage = new GreenHomeProject.MainPage();
-		}
+            MainPage = new NavigationPage(new GreenHomeProject.MainPage());
+        }
 
 		protected override void OnStart ()
 		{

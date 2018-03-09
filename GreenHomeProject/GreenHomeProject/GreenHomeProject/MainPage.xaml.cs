@@ -9,9 +9,36 @@ namespace GreenHomeProject
 {
 	public partial class MainPage : ContentPage
 	{
-		public MainPage()
-		{
-			InitializeComponent();
-		}
-	}
+
+        public MainPage()
+        {
+            InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+            if (CheckNewUser())
+            {
+                Navigation.PushAsync(new Questions());
+            }
+            if (CheckLogin())
+            {
+                Navigation.PushAsync(new Login());
+            }
+        }
+        public bool CheckLogin()
+        {
+            if (true)
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+        private bool CheckNewUser()
+        {
+            if (true)
+                return true;
+            else
+                return false;
+        }
+    }
 }
+
