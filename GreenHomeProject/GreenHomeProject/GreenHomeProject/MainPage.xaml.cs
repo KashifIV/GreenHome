@@ -14,10 +14,10 @@ namespace GreenHomeProject
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            if (CheckNewUser())
-            {
-                Navigation.PushAsync(new Questions());
-            }
+            //if (CheckNewUser())
+            //{
+            //    Navigation.PushAsync(new Questions());
+            //}
             if (CheckLogin())
             {
                 Navigation.PushAsync(new Login());

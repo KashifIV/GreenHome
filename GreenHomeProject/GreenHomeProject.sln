@@ -16,6 +16,7 @@ Global
 		GreenHomeProject\GreenHomeProject\GreenHomeProject.projitems*{3bf5d753-2dee-4fc0-ace3-6bb69887f9ab}*SharedItemsImports = 13
 		GreenHomeProject\GreenHomeProject\GreenHomeProject.projitems*{94f28e55-8154-413c-9949-37f3fd4f95a7}*SharedItemsImports = 4
 		GreenHomeProject\GreenHomeProject\GreenHomeProject.projitems*{9d26bb4b-7c86-4492-bacc-020c17c411c0}*SharedItemsImports = 4
+		GreenHomeProject\GreenHomeProject\GreenHomeProject.projitems*{c5e0e7ac-582b-4678-a822-bc147d73266f}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
