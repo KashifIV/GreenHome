@@ -20,7 +20,8 @@ namespace GreenHomeProject
 
         private void Entry_Focused(object sender, FocusEventArgs e)
         {
-            user.Text = "";
+            if (e.IsFocused)
+                user.Text = "";
             if (!e.IsFocused && user.Text == "")
             {
                 user.Text = "Username";

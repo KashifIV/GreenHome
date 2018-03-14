@@ -4,18 +4,14 @@
              x:Class="GreenHomeProject.Questions"
              BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Lets answer a few Questions!"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center"
-                   FontSize="Large"
-                   TextColor="White"/>
-            <Button Text="Next"
+        <StackLayout VerticalOptions ="End"
+                     HorizontalOptions="End"
+                     Padding="10,30">
+            <Button Text="NEXT"
+                    BackgroundColor="White"
                     TextColor="Black"
-                    BorderColor="Gray"
-                    VerticalOptions="End"
-                    HorizontalOptions="End"
-                    Clicked="NextButton"/>
+                    Clicked="Button_Clicked"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
